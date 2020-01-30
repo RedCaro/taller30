@@ -1,0 +1,49 @@
+$colback: rgb(232, 250, 235);
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(194, 240, 168);
+    margin: 0;    
+}
+        
+
+.noticia {
+           // border: solid gold 2px;
+            display: flex;
+            justify-content: flex-end;
+            padding: 1%;
+        h2 {
+            text-align: center;
+            padding: 1%;
+        }
+            p {
+            text-align: justify;
+        }    
+        }
+   
+#container { 
+    //border: green solid 2px;
+    background-color: $colback;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            background-color: $colback;
+        }
+
+        +div {
+            display: flex;
+            //border: hotpink solid 3px;
+        }
+}
+#texto {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    //border: solid saddlebrown 4px;
+    flex-direction: column;
+}
+   
+    
+
