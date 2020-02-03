@@ -16,9 +16,20 @@ $colback: rgb(232, 250, 235);
             text-align: center;
             padding: 1%;
         }
-            p {
+        
+        p {
             text-align: justify;
+            a {
+                :hover {
+                    font-size: 20px;
+                    color: rgb(255, 202, 29);
+                }
+                :visited {
+                    color: crimson;
+                }
+            }
         }    
+       
         }
    
 #container { 

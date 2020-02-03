@@ -23,6 +23,15 @@
   text-align: justify;
 }
 
+.noticia p a :hover {
+  font-size: 20px;
+  color: #ffca1d;
+}
+
+.noticia p a :visited {
+  color: crimson;
+}
+
 #container {
   background-color: #e8faeb;
   display: -webkit-box;
